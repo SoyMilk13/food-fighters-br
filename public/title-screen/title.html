@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Title Screen Test</title>
+        <link href="title.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="sidebar">
+            <div id="sidebarButtons">
+                <div id="shopButton" class="sidebarButton" onclick="toggleSidebarUi(1, document.getElementById('shopUi'))">
+                    <p class="sidebarButtonText">Shop</p>
+                </div>
+                <div id="cosmeticsButton" class="sidebarButton" onclick="toggleSidebarUi(1, document.getElementById('cosmeticsUi'))">
+                    <p class="sidebarButtonText">Cosmetics</p>
+                </div>
+                <div id="questsButton" class="sidebarButton" onclick="toggleSidebarUi(1, document.getElementById('questsUi'))">
+                    <p class="sidebarButtonText">Quests</p>
+                </div>
+                <div id="statsButton" class="sidebarButton" onclick="toggleSidebarUi(1, document.getElementById('statsUi'))">
+                    <p class="sidebarButtonText">Player Stats</p>
+                </div>
+            </div>
+        </div>
+        <div id="barconnecter">
+            <div id="barconnecterContent">
+                <button id="loginButton">Login</button>
+            </div>
+        </div>
+        <div id="topbar">
+            <div id="topbarCurrencySection">
+                <div id="currencySectionGold" class="currencySection">
+                    <p>Gold: N/A</p>
+                </div>
+                <div id="currencySectionGems" class="currencySection">
+                    <p>Gems: N/A</p>
+                </div>
+            </div>
+        </div>
+        <div id="mainUi">
+            <div id="news">
+                <div id="newsContainer">
+                    <p id="newsTitle">News</p>
+                    <div id="newsContent"></div>
+                </div>
+            </div>
+            <div id="form">
+                <div id="formContainer">
+                    <input id="nickname" placeholder="Nickname" autocomplete="off" />
+                    <button id="joinGame">Play</button>
+                </div>
+            </div>
+        </div>
+        <div id="sidebarUis">
+            <div id="shopUi" class="sidebarUi" style="display: none;">
+                <p id="shopTitle" class="sidebarUiTitle">Shop</p>
+                <button id="closeShopButton" class="closeSidebarUi" onclick="toggleSidebarUi(0, document.getElementById('shopUi'))">X</button>
+                <div id="shopUiContent">
+                    <p class="comingSoonMessage">Coming Soon!</p>
+                </div>
+            </div>
+            <div id="cosmeticsUi" class="sidebarUi" style="display: none;">
+                <p id="cosmeticsTitle" class="sidebarUiTitle">Customize Character</p>
+                <button id="closeCosmeticsButton" class="closeSidebarUi" onclick="toggleSidebarUi(0, document.getElementById('cosmeticsUi'))">X</button>
+                <div id="cosmeticsUiContent">
+                    <p class="comingSoonMessage">Coming Soon!</p>
+                </div>
+            </div>
+            <div id="questsUi" class="sidebarUi" style="display: none;">
+                <p id="questsTitle" class="sidebarUiTitle">Quests</p>
+                <button id="closeQuestsButton" class="closeSidebarUi" onclick="toggleSidebarUi(0, document.getElementById('questsUi'))">X</button>
+                <div id="questsUiContent">
+                    <p class="comingSoonMessage">Coming Soon!</p>
+                </div>
+            </div>
+            <div id="statsUi" class="sidebarUi" style="display: none;">
+                <p id="statsTitle" class="sidebarUiTitle">Stats</p>
+                <button id="closeStatsButton" class="closeSidebarUi" onclick="toggleSidebarUi(0, document.getElementById('statsUi'))">X</button>
+                <div id="statsUiContent">
+                    <p class="comingSoonMessage">Coming Soon!</p>
+                </div>
+            </div>
+        </div>
+        <script src="title.js"></script>
+    </body>
+</html>
