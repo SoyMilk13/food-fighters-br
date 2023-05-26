@@ -1,6 +1,6 @@
 # Food Fighters: Battle Royale
 
-NOTE: This Repo relies on:
+This Repo relies on:
 
 - Express
 - Socket.io
