@@ -28,7 +28,7 @@ Start by installing [Node.js](https://nodejs.org).
 
 Next, use the following command to clone the repo:
 ```sh
-git clone https://github.com/HasangerGames/suroi.git
+git clone https://github.com/SoyMilk13/food-fighters-br.git
 ```
 
 To install dependencies, open a terminal in the project root, and run this command:
