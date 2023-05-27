@@ -21,7 +21,7 @@ Food Fighters: Battle Royale is still in early-development stages, and is not ye
 <!-- Game link goes here -->
 
 ## Join the Discord!
-[discord](https://discord.gg/kASrYbpt4w)
+[Discord](https://discord.gg/kASrYbpt4w)
 
 ## Installation and setup
 Start by installing [Node.js](https://nodejs.org).
