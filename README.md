@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/-node.js-green?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/-node.js-success?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/-socket.io-black?style=for-the-badge&logo=socketdotio">
   <img src="https://img.shields.io/badge/-express-blueviolet?style=for-the-badge&logo=express">
   <img src="https://img.shields.io/badge/-phaser-blue?style=for-the-badge">
@@ -17,7 +17,7 @@
 Food Fighters: Battle Royale is an open-source 2D battle royale game. It is currently a work in progress and may not be fully functional.
 
 ## Play the game!
-Food Fighters: Battle Royale is in early-development stages, and is not yet playable.
+Food Fighters: Battle Royale is still in early-development stages, and is not yet playable.
 <!-- Game link goes here -->
 
 ## Join the Discord!
