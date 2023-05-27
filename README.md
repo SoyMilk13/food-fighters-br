@@ -8,9 +8,9 @@
   <img src="https://img.shields.io/badge/-node.js-success?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img src="https://img.shields.io/badge/-socket.io-black?style=for-the-badge&logo=socketdotio">
   <img src="https://img.shields.io/badge/-express-blueviolet?style=for-the-badge&logo=express">
-  <img src="https://img.shields.io/badge/-phaser-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/-phaser-important?style=for-the-badge">
   <img src="https://img.shields.io/badge/-html-critical?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/-css-critical?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/-css-blue?style=for-the-badge&logo=css3">
 </div>
 
 ## About
